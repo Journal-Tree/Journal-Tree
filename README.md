@@ -28,14 +28,17 @@ Summary: We are building a journaling app for mental health, powered by Pinecone
 
 
 ## Important Dates:-
-Deadline - Jun 26, 2023
-Day by day plan
-20th June
-21st June
-22nd June
-23rd June
-24th June
-25th June
+- *Deadline - Jun 26, 2023*
+
+## Day by day plan
+- 20th June
+- 21st June
+- 22nd June
+- 23rd June
+- 24th June
+- 25th June
+
+## Evaluation Criteria
 Testing by every team members
 Final bugfixes
 Deployment
