@@ -11,19 +11,19 @@ Summary: We are building a journaling app for mental health, powered by Pinecone
   - (v2) access an AI-powered therapist that “knows” them through their journal
 
 ## How does it work:
-Front end has 3 sections
-Screen to input today’s journal entry.
-The app will give 3-5 prompts to the user, so they have concepts to input.
-A section where the user can access past journal entries.
-A screen that summarizes the past rolling 30 days, 90 days, and 1 yr of feeling.
-After each journal entry, the app
-Breaks up the entry into snippets by concept or mood
-Uses GPT-3.5-turbo or GPT-4 to pull out 3-5 keywords/concepts, with additional metadata (timestamp)
-Upserts the data into a Pinecone database
-Analysis screen
-(at the top) A toggle for the past 30 days, past 90 days, past 1 yr
-Screen shows mood clusters, with a word cloud of concepts (“anxious” appears larger than “depressed” if anxious occurs more often)
-(not sure how to do this - Peter knows!)
+- Front end has 3 sections
+  - Screen to input today’s journal entry.
+    - The app will give 3-5 prompts to the user, so they have concepts to input.
+  - A section where the user can access past journal entries.
+  - A screen that summarizes the past rolling 30 days, 90 days, and 1 yr of feeling.
+- After each journal entry, the app
+  - Breaks up the entry into snippets by concept or mood
+  - Uses GPT-3.5-turbo or GPT-4 to pull out 3-5 keywords/concepts, with additional metadata (timestamp)
+  - Upserts the data into a Pinecone database
+- Analysis screen
+  - (at the top) A toggle for the past 30 days, past 90 days, past 1 yr
+  - Screen shows mood clusters, with a word cloud of concepts (“anxious” appears larger than “depressed” if anxious occurs more often)
+    (not sure how to do this - Peter knows!)
 
 
 
