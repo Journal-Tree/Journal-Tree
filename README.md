@@ -48,3 +48,8 @@ Testing by every team members
 Final bugfixes
 Deployment
 submission
+
+## Hints by Harrison Chase
+
+- LangChain: Tool/function use: e.g. extraction and tagging.
+- PineCone: Long term memory for AI.
