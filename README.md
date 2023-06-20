@@ -26,7 +26,6 @@ Summary: We are building a journaling app for mental health, powered by Pinecone
     (not sure how to do this - Peter knows!)
 
 ## Links to shared platforms
--  [Google Docs](https://docs.google.com/document/d/15V2PkmHKumgL6rsWvsbcziZZCH-3zeRquLoPiiR7unM/edit?pli=1)
 -  [Discord Server](https://discord.gg/C75tW9ZD)
 -  [Team Information on Devpost](https://devpost.com/software/mood-journal-s5b0a8)
 
