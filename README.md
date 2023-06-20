@@ -29,7 +29,6 @@ Summary: We are building a journaling app for mental health, powered by Pinecone
 -  [Discord Server](https://discord.gg/C75tW9ZD)
 -  [Team Information on Devpost](https://devpost.com/software/mood-journal-s5b0a8)
 
-Note: Don't worry about privacy. The organization and repositories are currently private so only those who have the access to shared google docs have access to this.
 
 ## Important Dates:-
 - *Deadline - Jun 26, 2023*
