@@ -25,7 +25,12 @@ Summary: We are building a journaling app for mental health, powered by Pinecone
   - Screen shows mood clusters, with a word cloud of concepts (“anxious” appears larger than “depressed” if anxious occurs more often)
     (not sure how to do this - Peter knows!)
 
+## Links to shared platforms
+-  [Google Docs](https://docs.google.com/document/d/15V2PkmHKumgL6rsWvsbcziZZCH-3zeRquLoPiiR7unM/edit?pli=1)
+-  [Discord Server](https://discord.gg/C75tW9ZD)
+-  [Team Information on Devpost](https://devpost.com/software/mood-journal-s5b0a8)
 
+Note: Don't worry about privacy. The organization and repositories are currently private so only those who have the access to shared google docs have access to this.
 
 ## Important Dates:-
 - *Deadline - Jun 26, 2023*
