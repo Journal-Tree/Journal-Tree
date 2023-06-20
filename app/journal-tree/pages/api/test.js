@@ -1,3 +1,3 @@
 export default function handler(req, res) {
-    res.status(200).json({ result: 'OK' })
+    res.status(200).json({ result: 'JS API OK' })
 }
