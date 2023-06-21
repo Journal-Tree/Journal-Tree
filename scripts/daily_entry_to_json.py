@@ -9,24 +9,35 @@ from langchain import OpenAI
 import json
 from os import path
 
+# Taking inputs
+input1 = input("Highlight of the day")
+# User input : "I had a really productive morning at work."
+input2 = input("Moments that made her feel good")
+# User input : "I finished a challenging project at work, and I spent quality time with my family."
+input3 = input("Time you felt low or challenged")
+# User input : "Balancing work and family has been a bit stressful this week."
+input4 = input("Energy levels")
+# User input : "My energy levels fluctuate, but I try to maintain a balance with regular breaks and relaxation time."
+input4 = input("Overall mood and significant events")
+# User input : "I'd say my mood has been balanced overall, with normal ups and downs. Work stress and family time both have significant impacts."
+
 # Change the text and add your API key. It should be a paid account inorder to work.
 openai_api_key = 'YOUR_API_KEY'
 
 # Temperature is set to 0 for deterministic output.
 llm = OpenAI(temperature=0, openai_api_key=openai_api_key)
 
-
 # Prompt to Summarize the data.
 # The area after the TEXT: should come from the app when the user enters the data. I haven't taken it as an input for demonstration purpose.
-prompt = """
+prompt = f"""
 Please provide a summary of the individuals day from the answers to the questions in less than 100 words ?
 
 TEXT:
-Highlight of the day: "I had a really productive morning at work."
-Moments that made her feel good: "I finished a challenging project at work, and I spent quality time with my family."
-Time she felt low or challenged: "Balancing work and family has been a bit stressful this week."
-Energy levels: "My energy levels fluctuate, but I try to maintain a balance with regular breaks and relaxation time."
-Overall mood and significant events: "I'd say my mood has been balanced overall, with normal ups and downs. Work stress and family time both have significant impacts."
+Highlight of the day: {input1}
+Moments that made her feel good: {input2}
+Time you felt low or challenged: {input3}
+Energy levels: {input4}
+Overall mood and significant events: {input5}
 """
 
 """
