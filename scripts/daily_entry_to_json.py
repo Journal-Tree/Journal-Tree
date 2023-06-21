@@ -75,8 +75,9 @@ mood = llm(prompt)
 """OUTPUT
 Serene
 """
-# Loading the journal entry data. This shoud not be loaded like this need to fix later.
-filename = '/content/student_journal.json'
+# Loading the journal entry data. I have a loaded a data.json file I added in dataset to show the output.
+# student_journal.json file should be loaded while in the app.
+filename = '/content/data.json'
 listObj = []
 
 # Check if file exists
