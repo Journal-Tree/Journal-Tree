@@ -18,7 +18,7 @@ input3 = input("Time you felt low or challenged")
 # User input : "Balancing work and family has been a bit stressful this week."
 input4 = input("Energy levels")
 # User input : "My energy levels fluctuate, but I try to maintain a balance with regular breaks and relaxation time."
-input4 = input("Overall mood and significant events")
+input5 = input("Overall mood and significant events")
 # User input : "I'd say my mood has been balanced overall, with normal ups and downs. Work stress and family time both have significant impacts."
 
 # Change the text and add your API key. It should be a paid account inorder to work.
