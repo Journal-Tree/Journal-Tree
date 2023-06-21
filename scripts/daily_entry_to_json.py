@@ -40,18 +40,6 @@ Energy levels: {input4}
 Overall mood and significant events: {input5}
 """
 
-"""
-If we have input stored in some variable called "input" we can modify the prompt into this format.
-Where will this data be stored ?
-
-prompt = f""
-Please provide a summary of the individuals day from the answers to the questions in less than 100 words ?
-
-TEXT:
-{input}
-""
-"""
-
 # Checking the number of tokens it can be removed when we are making it as an app. 
 """
 I was trying to minimize the tokens that is the reason why the prompt is to summarize the data in less than 100 words.
