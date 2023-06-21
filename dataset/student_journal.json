@@ -111,6 +111,18 @@
     {
       "mood": "Excited",
       "entry": "Excitement courses through my veins today. The exams are an opportunity for me to showcase my knowledge and skills. The thrill of the challenge ignites a fire within me, propelling me forward. I embrace the adrenaline rush and the energy it brings. This excitement fuels my motivation and propels me to push beyond my limits. I'm ready to face the exams head-on, fueled by excitement and a hunger for success."
-    }
+    },
+    {
+  "mood": "Energetic",
+  "entry": "Feeling quite upbeat today after a great workout this morning. Had a successful meeting at work this week and also tried a new recipe that turned out delicious. I did have a bit of a disagreement with a friend over the weekend, which left me feeling a bit down, but my energy levels have remained high. Overall, I've been feeling pretty optimistic and energetic lately. My new fitness routine seems to have a positive impact on my mood."
+},
+{
+  "mood": "Melancholic",
+  "entry": "Today was okay, I managed to get out of bed on time. I enjoyed watching a movie last weekend and having a quiet dinner, but I've been feeling pretty low most of the time lately, struggling to find motivation for work. My energy levels have been quite low, I often feel tired. There doesn't seem to be a specific event causing it, but I've been feeling quite down."
+},
+{
+  "mood": "Balanced",
+  "entry": "Had a really productive morning at work, which was the highlight of my day. I finished a challenging project at work, and I spent quality time with my family, both of which made me feel good. Balancing work and family has been a bit stressful this week, causing some low moments. My energy levels fluctuate, but I try to maintain a balance with regular breaks and relaxation time. Overall, my mood has been balanced, with normal ups and downs. Work stress and family time both have significant impacts."
+}
   ]
 }
