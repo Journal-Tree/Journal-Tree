@@ -15,6 +15,7 @@ openai_api_key = 'YOUR_API_KEY'
 # Temperature is set to 0 for deterministic output.
 llm = OpenAI(temperature=0, openai_api_key=openai_api_key)
 
+
 # Prompt to Summarize the data.
 # The area after the TEXT: should come from the app when the user enters the data. I haven't taken it as an input for demonstration purpose.
 prompt = """
@@ -30,6 +31,7 @@ Overall mood and significant events: "I'd say my mood has been balanced overall,
 
 """
 If we have input stored in some variable called "input" we can modify the prompt into this format.
+Where will this data be stored ?
 
 prompt = f""
 Please provide a summary of the individuals day from the answers to the questions in less than 100 words ?
@@ -58,16 +60,19 @@ TEXT:
 {entry}
 """
 
+# checking the token can be skipped.
 num_tokens = llm.get_num_tokens(prompt)
-print (f"Our prompt has {num_tokens} tokens")
+# print (f"Our prompt has {num_tokens} tokens")
 
+# Finding the mood of the person.
 mood = llm(prompt)
 print(mood)
 
+# Loading the journal entry data. This shoud not be loaded like this need to fix later.
 filename = '/content/student_journal.json'
 listObj = []
-# Check if file exists
 
+# Check if file exists
 if path.isfile(filename) is False:
   raise Exception("File not found")
 
@@ -75,18 +80,23 @@ if path.isfile(filename) is False:
 with open(filename) as fp:
   listObj = json.load(fp)
 
-# Verify existing list
-print(listObj)
-print(type(listObj))
+# Printing the json data.
+# print(listObj)
+# print(type(listObj))
+
+# Appending the data into the journal data.
 listObj['entries'].append({
   "mood": mood.strip(),
   "entry": entry.strip(),
 })
 
-# Verify updated list
-print(listObj)
+# Verifying the data.
+# print(listObj)
+
+# Dumping back the file as json.
 with open(filename, 'w') as json_file:
     json.dump(listObj, json_file,
                         indent=4,
                         separators=(',',': '))
-print('Successfully appended to the JSON file')
+
+# print('Successfully appended to the JSON file')
