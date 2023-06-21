@@ -9,7 +9,7 @@ from langchain import OpenAI
 import json
 from os import path
 
-# Taking inputs
+# Taking inputs for the user this can be made a separate file to integrate with the app easier.
 input1 = input("Highlight of the day")
 # User input : "I had a really productive morning at work."
 input2 = input("Moments that made her feel good")
