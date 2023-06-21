@@ -91,6 +91,10 @@ with open(filename) as fp:
 # print(listObj)
 # print(type(listObj))
 
+"""OUTPUT
+{'entries': [{'mood': 'Anxious', 'entry': "Feeling overwhelmed today as the exams are approaching rapidly. The pressure is mounting, and I can't help but worry about whether I've studied enough. Thoughts of failure keep creeping into my mind, making it difficult to concentrate. I'm trying my best to stay focused and revise as much as I can, but the anxiety is overwhelming."}]}
+"""
+
 # Appending the data into the journal data.
 listObj['entries'].append({
   "mood": mood.strip(),
@@ -107,3 +111,7 @@ with open(filename, 'w') as json_file:
                         separators=(',',': '))
 
 # print('Successfully appended to the JSON file')
+"""OUTPUT
+{'entries': [{'mood': 'Anxious', 'entry': "Feeling overwhelmed today as the exams are approaching rapidly. The pressure is mounting, and I can't help but worry about whether I've studied enough. Thoughts of failure keep creeping into my mind, making it difficult to concentrate. I'm trying my best to stay focused and revise as much as I can, but the anxiety is overwhelming."}, {'mood': 'Serene.', 'entry': 'The individual had a productive morning at work and finished a challenging project. She also spent quality time with her family. Balancing work and family has been a bit stressful this week, but she tries to maintain a balance with regular breaks and relaxation time. Her mood has been balanced overall, with normal ups and downs. Work stress and family time both have significant impacts.'}]}
+Successfully appended to the JSON file
+"""
