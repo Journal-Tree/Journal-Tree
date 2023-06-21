@@ -1,16 +1,16 @@
 # Project Brief
 Summary: We are building a journaling app for mental health, powered by Pinecone and LLMs.
 
-## What does the app do:
+## What the app can do:
 - End users access the app daily (or as often as they want), to privately journal how their day went, how they’re feeling, what they ate.
-- End user can go to a screen to see analysis of clusters of moods and feelings, along with what might have led to that feeling (Monday blues, Friday dinner with 
+- End users can go to a screen to see analysis of clusters of moods and feelings, along with what might have led to that feeling (Monday blues, Friday dinner with 
   parents, eating broccoli, menstrual cycle, etc).
 - Users can
   - better understand what contributes to certain moods
   - share this analysis with their therapist
   - (v2) access an AI-powered therapist that “knows” them through their journal
 
-## How does it work:
+## How it works:
 - Front end has 3 sections
   - Screen to input today’s journal entry.
     - The app will give 3-5 prompts to the user, so they have concepts to input.
