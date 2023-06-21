@@ -51,6 +51,11 @@ num_tokens = llm.get_num_tokens(prompt)
 # Getting the output.
 entry = llm(prompt)
 # print(entry)
+"""OUTPUT
+The individual had a productive morning at work and finished a challenging project. She also spent quality time with her family. 
+Balancing work and family has been a bit stressful this week, but she tries to maintain a balance with regular breaks and 
+relaxation time. Her mood has been balanced overall, with normal ups and downs. Work stress and family time both have significant impacts.
+"""
 
 # Prompt for finding the mood of the user of the day from the summary of his/ her journal data.
 prompt = f"""
@@ -66,8 +71,10 @@ num_tokens = llm.get_num_tokens(prompt)
 
 # Finding the mood of the person.
 mood = llm(prompt)
-print(mood)
-
+# print(mood)
+"""OUTPUT
+Serene
+"""
 # Loading the journal entry data. This shoud not be loaded like this need to fix later.
 filename = '/content/student_journal.json'
 listObj = []
