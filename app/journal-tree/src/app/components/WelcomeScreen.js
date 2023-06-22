@@ -1,6 +1,7 @@
 import Banner from "./Banner";
 import SubHeading from "./SubHeading";
 import MoodButton from "./MoodButton";
+import Fragment from 'react';
 
 export default function WelcomeScreen() {
     return (<Fragment>
