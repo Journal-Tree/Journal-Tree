@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import React from 'react';
-import 'Journal-Tree/Journal-Tree/app/journal-tree/src/app/_stylesheet/style.css';  // import the CSS file
+
+import './_stylesheet/style.css';  // import the CSS file
 
 
 
