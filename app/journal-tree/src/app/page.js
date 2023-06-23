@@ -1,6 +1,7 @@
 import './_stylesheet/style.css';
 import WelcomeBlock from './components/HomeScreen/WelcomeBlock';
 import UserInputBox from './components/ResuableComponents/UserInputBox';
+import UserSubmitButton from './components/UserSubmitButton';
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <div>
         <h1>Welcome Back, Sam</h1>
         <UserInputBox/>
+        <UserSubmitButton/>
       </div>
     </main>
   )
