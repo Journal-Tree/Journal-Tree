@@ -1,8 +1,25 @@
 /* App.css */
 body {
-  background-color: rgb(75, 130, 149);
+  background-color: rgb(255, 255, 255);
 }
 
 h1 {
-  color: red;
+  color: #788f84;
+  display: flex;
+  width: 874.793px;
+  height: 156px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.user-input-box {
+  width: 797.538px;
+  height: 133px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #EBEBEB;
+  padding: 10px;  /* optional, adjust as needed */
+  border: none;  /* optional, adjust as needed */
+  resize: none;  /* optional, to disable resizing of the textarea */
 }
