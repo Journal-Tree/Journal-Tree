@@ -1,6 +1,7 @@
 import Image from 'next/image'
-import WelcomeBlock from  './components/welcomeBlock.js'
-import './_stylesheet/style.css';  // import the CSS file
+
+import './_stylesheet/style.css';
+import WelcomeBlock from "./components/WelcomeBlock";
 
 export default function Home() {
   return (
