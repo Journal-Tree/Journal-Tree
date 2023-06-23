@@ -9,8 +9,8 @@ const styles = {
     border: '0.50px solid #EFF0F6'
 };
 
-const welcomeBlock = () => (
+const WelcomeBlock = () => (
     <div style={styles} />
 );
 
-export default welcomeBlock;
+export default WelcomeBlock;
