@@ -9,7 +9,7 @@ const styles = {
 
 const WelcomeBlock = () => (
   <>
-    <h1 style={styles}>Welcome back, Sam</h1>
+    {/* <h1 style={styles}>Welcome back, Sam</h1> */}
   </>
 );
 

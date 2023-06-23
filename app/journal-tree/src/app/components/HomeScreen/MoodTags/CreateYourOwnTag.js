@@ -1,5 +1,5 @@
 const styles = {
-  width: 348,
+  width: 341,
   height: 87,
   background: "#A3C9A8",
   boxShadow: "0px 5px 14px rgba(8, 15, 52, 0.04)",
