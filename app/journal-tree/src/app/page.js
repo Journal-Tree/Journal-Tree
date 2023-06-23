@@ -1,7 +1,7 @@
 import './_stylesheet/style.css';
 import WelcomeBlock from './components/HomeScreen/WelcomeBlock';
 import UserInputBox from './components/ResuableComponents/UserInputBox';
-import UserSubmitButton from './components/UserSubmitButton';
+// import UserSubmitButton from './components/UserSubmitButton';
 import CreateYourOwnTag from './components/HomeScreen/MoodTags/CreateYourOwnTag'
 import InspiredTag from './components/HomeScreen/MoodTags/InspiredTag'
 
@@ -13,7 +13,7 @@ export default function Home() {
         <h1>Welcome Back, Testing</h1>
         <WelcomeBlock/>
         <UserInputBox/>
-        <UserSubmitButton/>
+        {/* <UserSubmitButton/> */}
         <CreateYourOwnTag/>
         <InspiredTag/>
       </div>
