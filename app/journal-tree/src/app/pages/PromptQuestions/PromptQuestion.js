@@ -1,4 +1,3 @@
-
 const styles = {
   container: {
     width: "100%",
@@ -22,7 +21,9 @@ const styles = {
 const PromptQuestion = () => (
   <div style={styles.container}>
     <div style={styles.text}>
-      Can you share with me what the highlight of your day was so far?
+      <p>Can you share with me what the highlight of your day was so far?</p>
+      <p>What were some moments that made you feel really good?</p>
+      <p>I'm curious, how have your energy levels been lately? </p>
     </div>
   </div>
 );

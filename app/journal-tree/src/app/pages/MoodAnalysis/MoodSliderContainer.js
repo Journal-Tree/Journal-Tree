@@ -7,6 +7,6 @@ const styles = {
   borderRadius: 30,
 };
 
-const Scale = () => <div style={styles} />;
+const MoodSliderContainer = () => <div style={styles} />;
 
-export default Scale;
+export default MoodSliderContainer;

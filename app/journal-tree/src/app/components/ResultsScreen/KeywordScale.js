@@ -30,7 +30,6 @@ const KeywordScale = () => (
   <div style={styles.container}>
     <div style={styles.innerContainer1} />
     <div style={styles.innerContainer2} />
-    {/* rest of the divs go here */}
   </div>
 );
 
