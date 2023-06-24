@@ -12,7 +12,7 @@ export default function Home() {
         <h1>Welcome Back, Sam!</h1>
         <WelcomeBlock/>
         <UserInputBox/>
-        
+
         <CreateYourOwnTag/>
         <InspiredTag/>
       </div>
