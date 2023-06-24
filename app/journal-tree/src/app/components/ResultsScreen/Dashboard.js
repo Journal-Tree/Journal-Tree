@@ -9,7 +9,6 @@ const styles = {
 
 const Dashboard = () => (
   <div style={styles}>
-    {/* Your Dashboard content goes here */}
   </div>
 );
 
