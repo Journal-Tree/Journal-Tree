@@ -1,55 +1,60 @@
-# Project Brief
-Summary: We are building a journaling app for mental health, powered by Pinecone and LLMs.
+# Project Overview
 
-## What the app can do:
-- End users access the app daily (or as often as they want), to privately journal how their day went, how they’re feeling, what they ate.
-- End users can go to a screen to see analysis of clusters of moods and feelings, along with what might have led to that feeling (Monday blues, Friday dinner with 
-  parents, eating broccoli, menstrual cycle, etc).
-- Users can
-  - better understand what contributes to certain moods
-  - share this analysis with their therapist
-  - (v2) access an AI-powered therapist that “knows” them through their journal
+**Goal:** Develop a journaling application dedicated to mental health, utilizing the power of Pinecone and LLMs
 
-## How it works:
-- Front end has 3 sections
-  - Screen to input today’s journal entry.
-    - The app will give 3-5 prompts to the user, so they have concepts to input.
-  - A section where the user can access past journal entries.
-  - A screen that summarizes the past rolling 30 days, 90 days, and 1 yr of feeling.
-- After each journal entry, the app
-  - Breaks up the entry into snippets by concept or mood
-  - Uses GPT-3.5-turbo or GPT-4 to pull out 3-5 keywords/concepts, with additional metadata (timestamp)
-  - Upserts the data into a Pinecone database
-- Analysis screen
-  - (at the top) A toggle for the past 30 days, past 90 days, past 1 yr
-  - Screen shows mood clusters, with a word cloud of concepts (“anxious” appears larger than “depressed” if anxious occurs more often)
-    (not sure how to do this - Peter knows!)
+## Capabilities of the App:
 
+- Users can interact with the app daily or as frequently as they prefer, to confidentially document their daily experiences, emotions, and dietary habits.
+- Users can view an analysis of their mood patterns and emotions, along with potential triggers (text anxiety, interpersonal relationships, seasonal depression, dietary changes, etc).
+
+## Benefits for Users:
+
+- Gain a deeper understanding of factors that influence their moods
+- Share their mood analysis with their therapist
+- In the second version, engage with an AI therapist that comprehends them through their journal entries
+
+## App Functionality:
+
+The user interface of the app is divided into three sections:
+
+1. A screen for inputting the day's journal entry, with 3-5 prompts provided for user input
+2. A section for accessing historical journal entries
+3. A screen that provides a summary of the user's emotions over the past 30 days, 90 days, and a year
+
+## Post-Journal Entry Actions:
+
+After each journal entry, the app performs the following:
+
+- Breaks down the entry into snippets based on concept or mood
+- Utilizes GPT-3.5-turbo or GPT-4 to extract 3-5 keywords/concepts, along with additional metadata (timestamp)
+- Updates or inserts the data into a Pinecone database
+
+## Analysis Screen:
+
+- Provides a toggle for viewing the past 30 days, 90 days, or a year
+- Displays mood clusters and a word cloud of concepts (for example, 'anxious' appears larger than 'depressed' if 'anxious' is more frequent)
+
+## Screenshots
 <img width="689" alt="Welcomescreen" src="https://github.com/Journal-Tree/Journal-Tree/assets/71754706/7374288d-4232-43c5-a850-69eb4c901f04">
 
-## Links to shared platforms
--  [Discord Server](https://discord.gg/C75tW9ZD)
--  [Team Information on Devpost](https://devpost.com/software/mood-journal-s5b0a8)
+
+## Links to Shared Platforms:
+
+- [Discord Server]()
+- [Devpost Team Information]()
+
+## Important Dates:
+
+- Project Deadline - June 26, 2023
 
 
-## Important Dates:-
-- *Deadline - Jun 26, 2023*
+## Evaluation Criteria:
 
-## Day by day plan
-- 20th June
-- 21st June
-- 22nd June
-- 23rd June
-- 24th June
-- 25th June
+- Testing by each team member
+- Final bug fixes
+- Deployment submission
 
-## Evaluation Criteria
-Testing by every team members
-Final bugfixes
-Deployment
-submission
+## Advice from Harrison Chase:
 
-## Hints by Harrison Chase
-
-- LangChain: Tool/function use: e.g. extraction and tagging.
-- PineCone: Long term memory for AI.
+- LangChain: Use for extraction and tagging
+- PineCone: Acts as the AI's long-term memory
