@@ -37,6 +37,13 @@ After each journal entry, the app performs the following:
 ## Screenshots
 <img width="689" alt="Welcomescreen" src="https://github.com/Journal-Tree/Journal-Tree/assets/71754706/7374288d-4232-43c5-a850-69eb4c901f04">
 
+<img width="672" alt="Screenshot 2023-06-25 at 10 38 16 AM" src="https://github.com/Journal-Tree/Journal-Tree/assets/71754706/8e251429-983a-48f9-bb7f-c788ac64f811">
+<img width="607" alt="Screenshot 2023-06-25 at 10 40 05 AM" src="https://github.com/Journal-Tree/Journal-Tree/assets/71754706/5a2d934a-2f52-42eb-b418-bb918b093e12">
+
+<img width="871" alt="Screenshot 2023-06-25 at 10 41 05 AM" src="https://github.com/Journal-Tree/Journal-Tree/assets/71754706/e7c783fd-e91a-431b-bcb5-b43719ef335e">
+
+
+Figma Link : https://www.figma.com/file/uC2dRKcbYffyl1T41pWNOn/Entry-Box?type=design&node-id=0%3A1&mode=design&t=TZgstIYW83EH3nxz-1
 
 ## Links to Shared Platforms:
 
