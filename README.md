@@ -35,6 +35,10 @@ While Journal Tree can provide valuable insights and aid in mental health awaren
 
 Figma Link: https://www.figma.com/file/uC2dRKcbYffyl1T41pWNOn/Entry-Box?type=design&node-id=0%3A1&mode=design&t=TZgstIYW83EH3nxz-1
 
+## Project Demo
+
+https://github.com/Journal-Tree/Journal-Tree/assets/111655655/f2b8a562-cbb0-43d2-9f26-e1521d7d188e
+
 ## Features  💡
 
 - **Interactive Journaling Prompts:** Makes journaling easier with guided prompts.
