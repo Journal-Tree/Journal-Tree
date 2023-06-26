@@ -1,38 +1,30 @@
-# Project Overview
+# Journal Tree - A Hackathon Project Journey
 
-**Goal:** Develop a journaling application dedicated to mental health, utilizing the power of Pinecone and LLMs
+## Project Overview 
 
-## Capabilities of the App:
+Journal Tree leverages AI to unlock powerful insights from your journal entries. Imagine having a friendly guide who helps you understand yourself better and provides support on your mental health journey.
 
-- Users can interact with the app daily or as frequently as they prefer, to confidentially document their daily experiences, emotions, and dietary habits.
-- Users can view an analysis of their mood patterns and emotions, along with potential triggers (text anxiety, interpersonal relationships, seasonal depression, dietary changes, etc).
+## Use Cases
 
-## Benefits for Users:
+- **Emotion Tracking:** Log daily emotions and experiences, and review patterns over time.
+- **Therapy Aid:** Track feelings and thoughts between sessions, providing additional context for therapists.
+- **Mental Health Advocacy:** Use the app to promote self-awareness and encourage seeking professional help.
+- **Stress Management:** Document stressors and develop effective coping strategies.
+- **Self-Reflection Practice:** Engage in daily self-reflection, understand emotional patterns, and gain personal growth insights.
+- **Mental Health Research:** Anonymized data could contribute to research studies on mental health patterns and journaling effectiveness.
 
-- Gain a deeper understanding of factors that influence their moods
-- Share their mood analysis with their therapist
-- In the second version, engage with an AI therapist that comprehends them through their journal entries
+## Disclaimer
 
-## App Functionality:
+While Journal Tree can provide valuable insights and aid in mental health awareness, it is not a substitute for professional mental health support or treatment.
 
-The user interface of the app is divided into three sections:
+## Tools Used 
 
-1. A screen for inputting the day's journal entry, with 3-5 prompts provided for user input
-2. A section for accessing historical journal entries
-3. A screen that provides a summary of the user's emotions over the past 30 days, 90 days, and a year
-
-## Post-Journal Entry Actions:
-
-After each journal entry, the app performs the following:
-
-- Breaks down the entry into snippets based on concept or mood
-- Utilizes GPT-3.5-turbo or GPT-4 to extract 3-5 keywords/concepts, along with additional metadata (timestamp)
-- Updates or inserts the data into a Pinecone database
-
-## Analysis Screen:
-
-- Provides a toggle for viewing the past 30 days, 90 days, or a year
-- Displays mood clusters and a word cloud of concepts (for example, 'anxious' appears larger than 'depressed' if 'anxious' is more frequent)
+- **LangChain:** As an open-source provider integrated with OpenAI and Cohere, it powers our AI capabilities. 
+- **Pinecone AI:** This platform allows us to manage complex data structures, known as vectors, at large scale, which helps improve the analytical capabilities of Journal Tree.
+- **OpenAI's ChatGPT API:** We used this advanced chatbot technology to provide real-time interactions, creating a more engaging user experience in Journal Tree.
+- **FastAPI:** This is the high-performance web framework we've chosen. It's known for its speed and ease of learning, contributing to the efficient development of our project.
+- **ReactJS:** We use this popular JavaScript library to construct dynamic and responsive user interfaces, making Journal Tree visually appealing and user-friendly.
+- **Python:** This serves as our main backend language. It's responsible for the server-side operations, data processing, and the overall logic of Journal Tree.
 
 ## Screenshots
 <img width="689" alt="Welcomescreen" src="https://github.com/Journal-Tree/Journal-Tree/assets/71754706/7374288d-4232-43c5-a850-69eb4c901f04">
@@ -43,25 +35,33 @@ After each journal entry, the app performs the following:
 <img width="871" alt="Screenshot 2023-06-25 at 10 41 05 AM" src="https://github.com/Journal-Tree/Journal-Tree/assets/71754706/e7c783fd-e91a-431b-bcb5-b43719ef335e">
 
 
-Figma Link : https://www.figma.com/file/uC2dRKcbYffyl1T41pWNOn/Entry-Box?type=design&node-id=0%3A1&mode=design&t=TZgstIYW83EH3nxz-1
+Figma Link: https://www.figma.com/file/uC2dRKcbYffyl1T41pWNOn/Entry-Box?type=design&node-id=0%3A1&mode=design&t=TZgstIYW83EH3nxz-1
 
-## Links to Shared Platforms:
+## Features 
 
-- [Discord Server]()
-- [Devpost Team Information]()
+- **Interactive Journaling Prompts:** Makes journaling easier with guided prompts.
+- **Mood Analysis:** Analyze your entries to determine your mood trends.
+- **Data Dashboard:** Visualize your emotional trends over time.
+- **Real-time Interaction:** Chat with our AI for instant journaling feedback.
 
-## Important Dates:
+## Challenges 
 
-- Project Deadline - June 26, 2023
+- **Deployment:** Setting up the application on the server had its trials.
+- **React Components Rendering:** Getting the components to render properly was another challenge.
+- **Integration of APIs:** Integrating various APIs posed some difficulties that we had to overcome.
 
+## Future Features 
 
-## Evaluation Criteria:
+- **Sentiment Analysis Over Time:** Track the positivity or negativity of your entries over time.
+- **Customizable Prompts:** Tailor prompts to your liking for a more personalized journaling experience.
+- **Social Sharing:** Share your progress and achievements with your social circle.
+- **Goal Tracking:** Integrate a feature that allows users to set personal goals (like journaling consistency or achieving certain mood metrics) and track their progress over time.
+- **AI Suggestions:** The app could generate personalized recommendations for activities or practices based on the patterns in users' journal entries. This could include recommended reading, mindfulness exercises, or even prompts to discuss certain themes with a mental health professional.
 
-- Testing by each team member
-- Final bug fixes
-- Deployment submission
+## What We've Learned 
 
-## Advice from Harrison Chase:
+Throughout the journey of creating Journal Tree, we've faced and overcome various challenges, each one a learning experience contributing to our growth as developers. From conquering deployment issues to integrating multiple APIs, this hackathon project has been a valuable journey in problem-solving, collaboration, and persistence.
 
-- LangChain: Use for extraction and tagging
-- PineCone: Acts as the AI's long-term memory
+## Wrapping Up 
+
+The story of Journal Tree is just beginning. We're excited to see how this tool evolves and contributes to promoting mental health awareness and
