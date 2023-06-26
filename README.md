@@ -66,4 +66,5 @@ Throughout the journey of creating Journal Tree, we've faced and overcome variou
 
 ## Wrapping Up 
 
-The story of Journal Tree is just beginning. We're excited to see how this tool evolves and contributes to promoting mental health awareness and
+The story of Journal Tree is just beginning. We're excited to see how this tool evolves and contributes to promoting mental health awareness and personal growth. Stay tuned for more as we continue to branch out!
+
