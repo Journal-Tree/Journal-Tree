@@ -23,7 +23,7 @@ While Journal Tree can provide valuable insights and aid in mental health awaren
 - **Pinecone AI:** This platform allows us to manage complex data structures, known as vectors, at large scale, which helps improve the analytical capabilities of Journal Tree.
 - **OpenAI's ChatGPT API:** We used this advanced chatbot technology to provide real-time interactions, creating a more engaging user experience in Journal Tree.
 - **FastAPI:** This is the high-performance web framework we've chosen. It's known for its speed and ease of learning, contributing to the efficient development of our project.
-- **ReactJS:** We use this popular JavaScript library to construct dynamic and responsive user interfaces, making Journal Tree visually appealing and user-friendly.
+- **ReactJS:** We used React to construct dynamic and responsive user interfaces, making Journal Tree visually appealing and user-friendly.
 - **Python:** This serves as our main backend language. It's responsible for the server-side operations, data processing, and the overall logic of Journal Tree.
 
 ## Screenshots 📷
